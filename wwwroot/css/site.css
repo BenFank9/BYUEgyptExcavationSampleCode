@@ -1,0 +1,54 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+#MummiesTable {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid #023e8a;
+}
+
+    #MummiesTable td, #MummiesTable th {
+        /*border: 2px solid #eb4f0c;*/
+        padding: 10px;
+        text-align:center;
+    }
+
+    #MummiesTable tr:nth-child(even) {
+        background-color: ghostwhite;
+        text-align:center;
+    }
+
+    #MummiesTable tr:hover {
+        background-color: #dedddc;
+    }
+
+    #MummiesTable th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #023e8a;
+        color: white;
+    }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
